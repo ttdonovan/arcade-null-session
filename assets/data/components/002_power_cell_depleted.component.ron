@@ -1,0 +1,11 @@
+(
+    name: "Depleted Power Cell",
+    slot: PowerCell,
+    quality: Depleted,
+    stats: (
+        damage_mult: 0.5,
+        fire_rate_mult: 0.7,
+        heat_per_shot: 15.0,
+        heat_capacity: 0.0,
+    ),
+)

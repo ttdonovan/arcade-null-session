@@ -1,0 +1,11 @@
+(
+    name: "Salvaged Heat Sink",
+    slot: HeatSink,
+    quality: Salvaged,
+    stats: (
+        damage_mult: 1.0,
+        fire_rate_mult: 1.2,
+        heat_per_shot: 8.0,
+        heat_capacity: 50.0,
+    ),
+)

@@ -1,0 +1,11 @@
+(
+    name: "Cracked Focusing Lens",
+    slot: FocusingLens,
+    quality: Cracked,
+    stats: (
+        damage_mult: 0.6,
+        fire_rate_mult: 0.8,
+        heat_per_shot: 10.0,
+        heat_capacity: 0.0,
+    ),
+)

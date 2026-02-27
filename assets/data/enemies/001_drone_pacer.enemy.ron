@@ -1,0 +1,20 @@
+(
+    name: "Pacer Drone",
+    health: 30.0,
+    speed: 40.0,
+    damage: 10.0,
+    detection_range: 120.0,
+    patrol_radius: 80.0,
+    corruption: (
+        level: 0.6,
+        glitch_chance: 0.15,
+    ),
+    loot: (
+        drops: [
+            (
+                component: "heat_sink_salvaged",
+                chance: 1.0,
+            ),
+        ],
+    ),
+)
