@@ -1,0 +1,31 @@
+(
+    name: "Broken Turret",
+    health: 40.0,
+    speed: 0.0,
+    damage: 15.0,
+    detection_range: 0.0,
+    corruption: (
+        level: 0.4,
+        glitch_chance: 0.0,
+    ),
+    loot: (
+        drops: [
+            (
+                component: "heat_sink_standard",
+                chance: 0.5,
+            ),
+            (
+                component: "emitter_salvaged",
+                chance: 0.5,
+            ),
+        ],
+    ),
+    behavior: Sentry(
+        arc_direction: (1.0, 0.0),
+        burst_count: 4,
+        burst_duration_secs: 0.8,
+        cooldown_min_secs: 2.0,
+        cooldown_max_secs: 4.0,
+        projectile_speed: 300.0,
+    ),
+)

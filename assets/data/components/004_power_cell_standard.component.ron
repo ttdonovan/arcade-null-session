@@ -1,0 +1,11 @@
+(
+    name: "Standard Power Cell",
+    slot: PowerCell,
+    quality: Functional,
+    stats: (
+        damage_mult: 0.8,
+        fire_rate_mult: 0.9,
+        heat_per_shot: 12.0,
+        heat_capacity: 0.0,
+    ),
+)

@@ -13,4 +13,4 @@ No install required.
 
 ## Current Build
 
-Milestone 1 — Corridor combat prototype.
+Milestone 2 — Procedural rooms, enemy variants, hazards, vendor NPC, audio.

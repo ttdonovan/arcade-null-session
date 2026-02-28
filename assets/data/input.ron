@@ -1,0 +1,15 @@
+(
+    bindings: {
+        MoveUp:    ( keys: [KeyW, ArrowUp],      buttons: [DPadUp] ),
+        MoveDown:  ( keys: [KeyS, ArrowDown],     buttons: [DPadDown] ),
+        MoveLeft:  ( keys: [KeyA, ArrowLeft],     buttons: [DPadLeft] ),
+        MoveRight: ( keys: [KeyD, ArrowRight],    buttons: [DPadRight] ),
+        Dodge:     ( keys: [Space, ShiftLeft],    buttons: [South] ),
+        Fire:      ( keys: [],                    buttons: [RightTrigger2] ),
+        Pause:     ( keys: [Escape],              buttons: [Start] ),
+    },
+    mouse_fire: true,
+    stick_dead_zone: 0.15,
+    trigger_threshold: 0.1,
+    aim_distance: 200.0,
+)

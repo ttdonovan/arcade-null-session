@@ -4,7 +4,6 @@
     speed: 40.0,
     damage: 10.0,
     detection_range: 120.0,
-    patrol_radius: 80.0,
     corruption: (
         level: 0.6,
         glitch_chance: 0.15,
@@ -16,5 +15,9 @@
                 chance: 1.0,
             ),
         ],
+    ),
+    behavior: Pacer(
+        patrol_radius: 80.0,
+        glitch_chance: 0.15,
     ),
 )

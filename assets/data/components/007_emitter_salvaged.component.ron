@@ -1,0 +1,11 @@
+(
+    name: "Salvaged Emitter",
+    slot: Emitter,
+    quality: Salvaged,
+    stats: (
+        damage_mult: 1.2,
+        fire_rate_mult: 1.0,
+        heat_per_shot: 12.0,
+        heat_capacity: 0.0,
+    ),
+)

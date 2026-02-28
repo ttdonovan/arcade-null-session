@@ -1,0 +1,11 @@
+(
+    name: "Standard Focusing Lens",
+    slot: FocusingLens,
+    quality: Functional,
+    stats: (
+        damage_mult: 0.8,
+        fire_rate_mult: 1.0,
+        heat_per_shot: 8.0,
+        heat_capacity: 0.0,
+    ),
+)

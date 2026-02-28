@@ -1,0 +1,31 @@
+(
+    name: "Aggressor Drone",
+    health: 50.0,
+    speed: 35.0,
+    damage: 20.0,
+    detection_range: 150.0,
+    corruption: (
+        level: 0.5,
+        glitch_chance: 0.1,
+    ),
+    loot: (
+        drops: [
+            (
+                component: "power_cell_standard",
+                chance: 0.6,
+            ),
+            (
+                component: "lens_standard",
+                chance: 0.4,
+            ),
+        ],
+    ),
+    behavior: Aggressor(
+        patrol_radius: 50.0,
+        windup_secs: 0.5,
+        charge_speed_mult: 3.0,
+        charge_distance: 200.0,
+        recovery_secs: 1.0,
+        wall_stun_secs: 1.5,
+    ),
+)
