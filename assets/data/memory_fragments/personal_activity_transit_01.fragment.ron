@@ -1,0 +1,7 @@
+(
+    id: "activity_transit_memory",
+    content: "Warp coordinates. Jump sequences.\n{fleet_name} is {fleet_state}.\nYour hands plot a course before you know where you're going.",
+    sage_tags: ["activity_transit"],
+    source: Personal,
+    weight: 1.0,
+)

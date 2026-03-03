@@ -1,0 +1,7 @@
+(
+    id: "activity_combat_memory",
+    content: "Target locks. Shield harmonics.\n{fleet_name} — {ship_count} ships.\nThe sound of hull breach alarms\nthat wake you from dreams you can't recall.",
+    sage_tags: ["activity_combat"],
+    source: Personal,
+    weight: 1.0,
+)

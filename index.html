@@ -57,7 +57,7 @@
             letter-spacing: 0.2em;
         }
     </style>
-  <script type="module" crossorigin src="/arcade-null-session/assets/index-DwBkqDpl.js"></script>
+  <script type="module" crossorigin src="/arcade-null-session/assets/index-CKNgvmyH.js"></script>
 </head>
 <body>
     <div id="loading-screen">
@@ -66,5 +66,33 @@
         <div class="label">LOADING</div>
     </div>
     <canvas id="bevy-canvas"></canvas>
+    <script>
+    // Resume AudioContext on first user gesture (browser autoplay policy).
+    // Browsers suspend AudioContext created before user interaction; this
+    // intercepts all instances and resumes them on click/key/touch.
+    (function() {
+        var pending = [];
+        var Orig = window.AudioContext || window.webkitAudioContext;
+        if (!Orig) return;
+        var Patched = function() {
+            var ctx = new Orig();
+            if (ctx.state === 'suspended') pending.push(ctx);
+            return ctx;
+        };
+        Patched.prototype = Orig.prototype;
+        window.AudioContext = Patched;
+        if (window.webkitAudioContext) window.webkitAudioContext = Patched;
+        function resume() {
+            pending.forEach(function(ctx) { ctx.resume(); });
+            pending = [];
+            document.removeEventListener('click', resume);
+            document.removeEventListener('keydown', resume);
+            document.removeEventListener('touchstart', resume);
+        }
+        document.addEventListener('click', resume);
+        document.addEventListener('keydown', resume);
+        document.addEventListener('touchstart', resume);
+    })();
+    </script>
 </body>
 </html>

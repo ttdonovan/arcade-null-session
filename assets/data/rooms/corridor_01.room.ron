@@ -20,6 +20,7 @@
     ),
     spawn_points: [
         (x: 3, y: 3, kind: PlayerStart),
+        (x: 8, y: 2, kind: Terminal),
         (x: 14, y: 3, kind: Enemy("001_drone_pacer")),
         (x: 18, y: 3, kind: Exit),
     ],

@@ -31,6 +31,7 @@
         (x: 4, y: 8, kind: Hazard("vent")),
         (x: 10, y: 4, kind: Hazard("sweeping_beam")),
         (x: 3, y: 10, kind: Vendor),
+        (x: 11, y: 9, kind: Terminal),
         (x: 12, y: 3, kind: Exit),
     ],
 )

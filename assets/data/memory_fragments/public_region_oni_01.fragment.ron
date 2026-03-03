@@ -1,0 +1,7 @@
+(
+    id: "region_oni_presence",
+    content: "ONI signal signatures. Encrypted.\nThe encryption pattern feels...familiar.",
+    sage_tags: ["region_oni"],
+    source: Public,
+    weight: 1.0,
+)

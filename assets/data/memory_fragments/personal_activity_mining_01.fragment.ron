@@ -1,0 +1,7 @@
+(
+    id: "activity_mining_memory",
+    content: "The rhythm of extraction.\n{fleet_name} — {ship_count} ships drilling.\nYour muscles know the cadence. Your mind doesn't.",
+    sage_tags: ["activity_mining"],
+    source: Personal,
+    weight: 1.0,
+)

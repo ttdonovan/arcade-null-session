@@ -1,0 +1,7 @@
+(
+    id: "faction_mud_memory",
+    content: "Dirt under fingernails that won't wash clean.\nThe {faction} mark on your wrist.\n{fleet_count} vessels registered. You remember none.",
+    sage_tags: ["faction_mud"],
+    source: Personal,
+    weight: 1.0,
+)

@@ -1,0 +1,7 @@
+(
+    id: "region_ustur_territory",
+    content: "USTUR border frequencies hum\nthrough corrupted speakers.\nA language you almost understand.",
+    sage_tags: ["region_ustur"],
+    source: Public,
+    weight: 1.0,
+)

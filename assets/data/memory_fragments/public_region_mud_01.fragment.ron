@@ -1,0 +1,7 @@
+(
+    id: "region_mud_expansion",
+    content: "MUD territory markers flash across\ncorrupted nav data. They're expanding.",
+    sage_tags: ["region_mud"],
+    source: Public,
+    weight: 1.0,
+)

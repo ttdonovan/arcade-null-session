@@ -1,0 +1,7 @@
+(
+    id: "faction_oni_memory",
+    content: "Three symbols. A crescent.\nThe {faction} insignia burns in your retina.\n{fleet_count} ships carry it. Or carried.",
+    sage_tags: ["faction_oni"],
+    source: Personal,
+    weight: 1.0,
+)
