@@ -7,7 +7,7 @@ know you exist. The station is corrupted. Fight your way through.
 
 ## Play Now
 
-[Play in Browser](https://ttdonovan.github.io/arcade-null-session)
+[Play in Browser](https://blockquestgg.github.io/arcade-null-session)
 
 No install required.
 
